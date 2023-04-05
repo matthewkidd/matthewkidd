@@ -6650,7 +6650,7 @@ html {
   background-color: #fff;
   color: #231f20;
   font-family: "TXPro55Rg";
-  font-size: clamp(16px,2.5vw,24px);
+  font-size: clamp(1rem,2.5vw,1.5rem);
   font-style: normal;
   font-weight: 400;
   line-height: 1.5rem;
@@ -6659,6 +6659,10 @@ html {
   word-break: normal;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
+}
+
+body {
+  line-height: 1.5rem;
 }
 
 ::selection {
@@ -6720,7 +6724,7 @@ p.lead {
 }
 
 .h3 {
-  font-size: clamp(16px,2.5vw,24px);
+  font-size: clamp(1rem,2.5vw,1.5rem);
 }
 
 .h4,
@@ -7004,7 +7008,7 @@ textarea {
   color: inherit;
   display: block;
   font-family: 1em;
-  font-size: clamp(16px,2.5vw,24px);
+  font-size: clamp(1rem,2.5vw,1.5rem);
   max-width: 100%;
   -webkit-text-size-adjust: 100%;
 }
