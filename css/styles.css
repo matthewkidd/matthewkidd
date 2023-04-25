@@ -8413,7 +8413,7 @@ pre code {
 }
 
 .list>li:before {
-  content: "➔";
+  content: ">";
   color: #ed1c24;
   font-feature-settings: "tnum";
   font-variant-numeric: tabular-nums;
